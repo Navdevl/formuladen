@@ -5,6 +5,8 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/formuladen/",
+
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
